@@ -1,0 +1,863 @@
+header .row {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.logotype {
+	width: 138px;
+	border: 1px white;
+	margin-bottom: 10px;
+	
+}
+.logotype img {
+	margin-top: 25px;
+}
+.logotype a {
+	font: normal 10px Arial;
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	margin-left: 10px;
+	position: relative;
+	bottom: 7px;
+	
+}
+ header .menu ul {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+ header .menu ul li a {
+	margin-right:35px;
+	font: normal 18px Arial;
+	font-weight: bolder;
+	color: black;
+	text-decoration: none;
+	
+}
+ header .menu ul li:last-child {
+	margin-right:0;
+	
+}
+header .contact p {
+	font: normal 12px Arial;
+	font-weight: bolder;
+	color: black;
+	line-height: 1.5;
+	
+}
+header .tel p {
+	font: normal 16px Arial;
+	font-weight: bolder;
+	color: black;
+	line-height: 1.5;
+}
+.s_1 {
+	display:inline-block;   
+    position:relative;
+	width:100%;
+	height:534px;
+ 
+}
+.text h1 {
+	display:inline-block;
+    position:absolute;
+    top:140px; 
+	text-align:center; 
+	width:100%;
+	z-index: 2;
+	font: bold 72px Corbel;
+	color: #200c0c;
+	
+}
+.text h2 {
+	display:inline-block;
+    position:absolute;
+    top:240px;   
+    text-align:center; 
+	width:100%;
+	z-index: 2;
+	font: normal 24px Corbel;
+}
+.text p {
+	display:inline-block;
+    position:absolute;
+    top:310px;   
+   	text-align:center; 
+	width:100%;
+	z-index: 2;
+	font: bolder 18px Corbel;
+	color: #1c989ef2;
+}
+.text form button {
+	display:block;
+    position:absolute;
+    top:430px;    
+	z-index: 2;
+	margin:auto;
+	width:110px;
+	height:33px;
+ 	left:50%;
+	margin-left:-50px;
+	background: #7144cd;
+	font: bolder 12px Corbel;
+	color: white;
+	border-radius:  25px;
+	border: 0;
+    padding: 0;
+
+}
+.s_2 .about {
+	width: 1200px;
+	margin: auto;
+}
+.about h1,
+.classes h1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: bold 36px Corbel;
+	margin-top: 30px;
+}
+.about .aboutUs {
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.about p {
+	font: normal 18px Corbel;
+	height: 160px;
+}
+.purpleFon {
+	height: 1100px;
+	width: 1200px;
+/*	border: 2px solid yellow;*/
+	margin: auto;
+	margin-top: 50px;
+	position: relative;
+	margin-bottom: 130px;
+}
+.purpleFon .one {
+	width: 1200px;
+	height: 235px;
+	background: #dddaed;
+	
+}
+.purpleFon .one img {
+	max-height: 215px;
+	width: 310px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 2px solid white;
+	float: left;
+	
+}
+.purpleFon .one .oneOne{
+	width: 830px;
+	height: 215px;
+/*	border: 2px solid yellow;*/
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	left: 340px;
+}
+.purpleFon .one .oneOne h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: bold 20px Arial;
+	color: #5413bf;
+	margin-top: 20px;
+}
+.purpleFon .one .oneOne p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: normal 16px Arial;
+	color: black;
+	margin-top: 10px;
+}
+.purpleFon .one .oneOne .whiteOne {
+	width: 830px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	margin-top: 10px;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 5px;
+}
+.whiteOne .timeOne p {
+	font: normal 16px Arial;
+	color: black;
+	margin-left: 5px;
+}
+.purpleFon .one .oneOne .whiteOne .price {
+	font: bold 16px Arial;
+	color: black;
+	margin-top: 30px;
+}
+.purpleFon .one .oneOne .whiteOne .button {
+	width:110px;
+	height:33px;
+	background: #7144cd;
+	border-radius:  25px;
+	border: 0;
+    padding: 0;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+.purpleFon  .button a {
+	font: bolder 12px Corbel;
+	color: white;
+	text-decoration: none;
+	margin-left: 24px;
+    margin-top: 10px;
+    display: block;
+}
+
+.purpleFon .two {
+	width: 330px;
+	height: 590px;
+	background: #dddaed;
+	margin-top: 15px;
+	float:left;
+}
+.purpleFon .two img {
+	max-width: 310px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	border: 2px solid white;
+}
+.purpleFon .two .twoTwo {
+	width: 310px;
+	height: 170px;
+/*	border: 2px solid yellow;*/
+	position: absolute;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.purpleFon .two .twoTwo h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: bold 20px Arial;
+	color: #5413bf;
+}
+.purpleFon .two .twoTwo p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: normal 14px Arial;
+	color: black;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+.purpleFon .two .twoTwo .whiteTwo {
+	width: 310px;
+	height: 60px;
+	background: white;
+	position: absolute;
+	margin-top: 10px;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 5px;
+}
+.whiteTwo .timeTwo p {
+	font: normal 16px Arial;
+	color: black;
+}
+.purpleFon .two .twoTwo .whiteTwo .price {
+	font: bold 16px Arial;
+	color: black;
+	margin-top: 15px;
+}
+.purpleFon .two .twoTwo .whiteTwo .button {
+	width:110px;
+	height:33px;
+	background: #7144cd;
+	font: bolder 12px Corbel;
+	color: white;
+	border-radius:  25px;
+	border: 0;
+    padding: 0;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.purpleFon .three {
+	width: 851px;
+	height: 230px;
+	background: #eadee5;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+}
+.purpleFon .three img {
+	height: 210px;
+	width: 398px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 2px solid white;
+	float: right;
+}
+.purpleFon .three .threeThree {
+	width: 415px;
+	height: 210px;
+/*	border: 2px solid yellow;*/
+	position: absolute;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.purpleFon .three .threeThree h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: bold 20px Arial;
+	color: #5413bf;
+	margin-top: 5px;
+}
+.purpleFon .three .threeThree p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: normal 16px Arial;
+	color: black;
+	margin-top: 10px;
+
+}
+.purpleFon .three .threeThree .whiteThree {
+	width: 398px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	margin-top: 10px;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 5px;
+}
+.whiteThree .timeThree p {
+	font: normal 16px Arial;
+	color: black;
+}
+.purpleFon .three .threeThree .whiteThree .price {
+	font: bold 16px Arial;
+	color: black;
+	margin-top: 25px;
+}
+.purpleFon .three .threeThree .whiteThree .button {
+	width:110px;
+	height:33px;
+	background: #7144cd;
+	font: bolder 12px Corbel;
+	color: white;
+	border-radius:  25px;
+	border: 0;
+    padding: 0;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.purpleFon .four {
+	width: 418px;
+	height: 345px;
+	background: #eadee5;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+}
+.purpleFon .four img {
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 2px solid white;
+	margin-bottom: 5px;
+
+}
+.purpleFon .four .fourFour {
+	width: 398px;
+	height: 170px;
+/*	border: 2px solid yellow;*/
+	position: absolute;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.purpleFon .four .fourFour h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: bold 20px Arial;
+	color: #5413bf;
+}
+.purpleFon .four .fourFour p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: normal 14px Arial;
+	color: black;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+.purpleFon .four .fourFour .whiteFour {
+	width: 398px;
+	height: 60px;
+	background: white;
+	position: absolute;
+	margin-top: 10px;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 5px;
+}
+.whiteFour .timeFour p {
+	font: normal 16px Arial;
+	color: black;
+}
+.purpleFon .four .fourFour .whiteFour .price {
+	font: bold 16px Arial;
+	color: black;
+	margin-top: 15px;
+}
+.purpleFon .four .fourFour .whiteFour .button {
+	width:110px;
+	height:33px;
+	background: #7144cd;
+	font: bolder 12px Corbel;
+	color: white;
+	border-radius:  25px;
+	border: 0;
+    padding: 0;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.purpleFon .five {
+	width: 418px;
+	height: 605px;
+	background: #dddaed;
+	margin-top: 15px;
+	float: right;
+	margin-left: 15px;
+	
+}
+.purpleFon .five img {
+	width: 398px;
+	height: 325px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	border: 2px solid white;
+}
+.purpleFon .five .fiveFive {
+	width: 398px;
+	height: 222px;
+/*	border: 2px solid yellow;*/
+	position: absolute;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.purpleFon .five .fiveFive h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: bold 20px Arial;
+	color: #5413bf;
+}
+.purpleFon .five .fiveFive p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: normal 14px Arial;
+	color: black;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+.purpleFon .five .fiveFive .whiteFive {
+	width: 398px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	margin-top: 10px;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 15px;
+}
+.whiteFive .timeFive p {
+	font: normal 16px Arial;
+	color: black;
+}
+.purpleFon .five .fiveFive .whiteFive .price {
+	font: bold 16px Arial;
+	color: black;
+	margin-top: 15px;
+}
+.purpleFon .five .fiveFive .whiteFive .button {
+	width:110px;
+	height:33px;
+	background: #7144cd;
+	font: bolder 12px Corbel;
+	color: white;
+	border-radius:  25px;
+	border: 0;
+    padding: 0;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.purpleFon .six {
+	width: 763px;
+	height: 245px;
+	background: #eadee5;
+	margin-top: 15px;
+	float: left;
+	overflow: hidden;
+
+}
+.purpleFon .six img {
+	width: 310px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid white;
+	
+	
+
+}
+.purpleFon .six .sixSix {
+	width: 398px;
+	height: 222px;
+/*	border: 2px solid yellow;*/
+	position: absolute;
+	margin-left: 353px;
+	margin-bottom: 10px;
+	bottom: 0;	
+}
+.purpleFon .six .sixSix h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: bold 20px Arial;
+	color: #5413bf;
+}
+.purpleFon .six .sixSix p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font: normal 14px Arial;
+	color: black;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+.purpleFon .six .sixSix .whiteSix {
+	width: 398px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	margin-top: 10px;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 15px;
+}
+.whiteSix .timeSix p {
+	font: normal 16px Arial;
+	color: black;
+}
+.purpleFon .six .sixSix .whiteSix .price {
+	font: bold 16px Arial;
+	color: black;
+	margin-top: 15px;
+}
+.purpleFon .six .sixSix .whiteSix form button {
+	width:110px;
+	height:33px;
+	background: #7144cd;
+	font: bolder 12px Corbel;
+	color: white;
+	border-radius:  25px;
+	border: 0;
+    padding: 0;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.s_4 .photos {
+	max-height: 1100px;
+	width: 1200px;
+/*	border: 2px solid yellow;*/
+	margin: auto;
+	margin-top: 50px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-bottom: 130px;
+}
+.s_4 .photos img {
+	width: 390px;
+	margin-top: 10px;	
+}
+.s_5 {
+	margin-bottom: 130px;
+}
+.s_5 .prior {
+	max-height: 1100px;
+	width: 1200px;
+/*	border: 2px solid yellow;*/
+	margin: auto;
+	margin-top: 50px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.s_5 .prior .column img{
+	margin-left: 23px;
+}
+.s_5 .prior .column p {
+	font: bolder 16px Corbel;
+	color: black;
+	text-align: center;
+}
+.s_6 .info h2 {
+	font: bolder 24px Corbel;
+	color: #7144cd;
+	text-align: center;
+	margin-top: 50px;
+}
+.s_6 .info h3 {
+	font: normal 16px Arial;
+	color: black;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.s_6 .promo {
+	
+	max-height: 1100px;
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.s_6 .promo .sales li {
+	font: bold 20px Corbel;
+	color: black;
+	margin-right: 10px;
+	line-height: 160%;
+	list-style: decimal;
+}
+.s_6 .promo .follow li {
+	font: normal 16px Arial;
+	color: black;
+	margin-right: 7px;
+	line-height: 2.1;
+}
+.s_6 .promo .links li {
+	font: normal 16px Arial;
+	color: black;
+	line-height: 2.1;
+}
+.s_7 .invitation {
+	font: bold 36px Corbel;
+	color: #682ce4;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.s_7 form button {
+	width:110px;
+	height:33px;
+	background: #7144cd;
+	font: bolder 12px Corbel;
+	color: white;
+	border-radius:  25px;
+	border: 0;
+   	display: block;
+	margin: auto;
+	margin-bottom: 50px;
+	
+}
+footer {
+	height: 110px;
+	background: #c7c1e3;
+}
+
+footer .end {
+	width: 1200px;
+	margin: auto;
+	padding-top: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+footer .menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+footer .menu li a {
+	margin-right: 25px;
+	font: bold 20px Arial;
+	color: black;
+	text-decoration: none;
+}
+footer .contact p {
+	font: normal 16px Arial;
+	color: black;
+	line-height: 1.5;
+}
+footer .tel p {
+	font: bolder 18px Arial;
+	color: black;
+	line-height: 1.5;
+}
+
+
+.link_group {
+margin:20px auto;
+width:555px;
+text-align:center;
+/*border: 2px solid yellow;*/
+}
+
+/**********All styles popup**********/
+.popup {
+padding:5px 15px 15px;
+position:fixed;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+display:none;
+overflow:hidden;
+border:1px solid #ccc;
+background:#fff;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+
+}
+.popup h2 {
+font:bold 18px/32px Arial, san-serif;
+}
+.popup a.close {
+width:16px;
+height:16px;
+display:block;
+position:absolute;
+top: 5px;
+right: 10px;
+text-decoration: none;
+font-family: Arial;
+font-weight: bold;
+color: red;
+}
+
+
+/**********popup with form**********/
+.reg_form {
+width:400px;
+}
+.reg_form h2 {
+font: bold 36px Corbel;
+color: #682ce4;	
+}
+.reg_form form {
+margin-top:10px;
+}
+.reg_form label {
+width:100px;
+height:26px;
+font:bold 12px/26px Arial, san-serif;
+display:inline-block;
+vertical-align:top;
+
+}
+.reg_form input[type=text], .reg_form input[type=tel] {
+margin-bottom:10px;
+padding:0 3px;
+width:274px;
+height:22px;
+font:bold 12px/26px Arial, san-serif;
+border:1px solid #ccc;
+}
+.reg_form input[type=submit] {
+width:110px;
+height:33px;
+background: #7144cd;
+font: bolder 12px Corbel;
+color: white;
+border-radius:  25px;
+border: 0;
+padding: 0;
+margin-top: 10px;
+margin-right: 5px;
+position:relative;
+cursor:pointer;
+behavior: url(PIE.htc);
+}
+.reg_form input[type=submit]:hover {
+color:#fff;
+}
+
+/**********overlay styles**********/
+#overlay {
+width:100%;
+height:100%;
+position:fixed;
+top:0;
+left:0;
+display:none;
+background:#000;
+opacity:.8;
+z-index: 99;
+cursor: pointer;
+}
