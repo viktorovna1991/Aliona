@@ -30,7 +30,7 @@
 	}
 	.s_5 .prior {
 		width: auto;
-		margin: 50px;
+		margin: 50px 50px 100px;
 	}
 	.s_5 .prior .column p {
 		font: bolder 18px Corbel;
@@ -59,5 +59,98 @@
 	footer .end .tel {
 		margin-right: 50px;
 	}
+	.purpleFon {
+		height: 1555px;
+		width: auto;
+/*		border: 2px solid yellow;*/
+		margin-bottom: 100px;
+
+	}
+	.purpleFon .one {
+		width: 916px;
+		height: 326px;
+	
+	}
+	.purpleFon .one .oneOne .whiteOne {
+		width: 896px;
+		top: 215px;
+		left: -350px;
+	}
+	.purpleFon .one .oneOne{
+		width: auto;
+	}
+	.purpleFon .three {
+		width: 570px;
+		height: 285px;
+	}
+	.purpleFon .three img {
+		height: auto;
+		width: 318.4px;
+	}
+	.purpleFon .three .threeThree .whiteThree {
+		width: 550px;
+		top: 175px;
+	
+	}
+	.purpleFon .three .threeThree {
+		width: 220px;
+		height: auto;
+		text-align: center;
+	}
+	.purpleFon .four {
+		width: 569px;
+		height: 290px;
+	}
+	.purpleFon .four img {
+		height: auto;
+		float: right;
+		margin-right: 10px;
+		margin-top: 13px;
+	}
+	.purpleFon .four .fourFour .whiteFour {
+		width: 550px;
+		top: 186px;
+	}
+	.purpleFon .four .fourFour {
+		width: 290px;
+		margin-top: 25px;
+		text-align: center;
+	}
+	.purpleFon .whiteThree .button a {
+		margin-left: 6px;
+    	
+	}
+	.purpleFon  .whiteFour .button a {
+		margin-left: 6px;
+    	
+	}
+	.purpleFon .six {
+		width: 483px;
+		height: 605px;
+	
+
 }
+	.purpleFon .six img {
+		width: 460px;
+	}
+	.purpleFon .five img {
+		height: 335px;
+		margin-bottom: 25px;
+	}
+	.purpleFon .six .sixSix {
+		width: 398px;
+		position: relative;
+		margin-left: 10px;
+		margin-top: 14px;
+		
+}
+	.purpleFon .six .sixSix h1 {
+		margin-left: 40px;
+	}
+	.purpleFon .six .sixSix .whiteSix {
+		width: 460px;
+		
+	}
+	
+	}
 
