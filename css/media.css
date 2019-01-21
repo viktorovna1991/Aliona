@@ -1,0 +1,63 @@
+@media (min-width: 980px) and (max-width: 1240px) {
+	
+	.container {
+		padding: 0 30px;
+	}
+	.s_2 .about {
+    	width: 980px;
+    	margin: auto;
+	}
+	.about p {
+		font: normal 18px Corbel;
+		height: auto;
+	}	
+	.about .aboutUs {
+		flex-direction: row;
+	}
+	.s_3,
+	.s_4,
+	.s_5,
+	.s_6 .classes h1 {
+		width: auto;
+		margin: auto;
+}
+	.s_4 .photos {
+		width: auto;
+		justify-content: center;
+	}
+	.s_4 .photos img {
+		margin-right: 10px;
+	}
+	.s_5 .prior {
+		width: auto;
+		margin: 50px;
+	}
+	.s_5 .prior .column p {
+		font: bolder 18px Corbel;
+	}
+	
+	.s_6 h2,h3 {
+		width: auto;
+		margin: 0 50px;
+	}
+	.s_6 .info h3 {
+		font-size: 18px;
+	}
+	.s_6 .promo {
+		width: auto;
+		margin: 0 60px;
+	}
+	.s_7 {
+		width: auto;
+	}
+	footer .end {
+		width: auto;
+	}
+	footer .end .menu {
+		margin-left: 50px;
+	}
+	footer .end .tel {
+		margin-right: 50px;
+	}
+}
+

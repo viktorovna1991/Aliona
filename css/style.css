@@ -1,8 +1,19 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+@media (min-width: 1240px) {
+	.container {
+		width: 1200px;
+		margin: auto;
+	}
+}
 header .row {
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 }
 .logotype {
 	width: 138px;
@@ -10,11 +21,9 @@ header .row {
 	margin-bottom: 10px;
 	
 }
-/*bla-bla*/
 .logotype img {
 	margin-top: 25px;
 }
-/*brrrr*/
 .logotype a {
 	font: normal 10px Arial;
 	text-decoration: none;
@@ -112,7 +121,7 @@ header .tel p {
 
 }
 .s_2 .about {
-	width: 1200px;
+
 	margin: auto;
 }
 .about h1,
@@ -136,6 +145,21 @@ header .tel p {
 .about p {
 	font: normal 18px Corbel;
 	height: 160px;
+}
+.s_3,
+.s_4,
+.s_5,
+.s_6 .classes h1 {
+	width: 1200px;
+	margin: auto;
+}
+.s_6  h2, h3 {
+	width: 1200px;
+	margin: auto;
+}
+.s_7 {
+	width: 1200px;
+	margin: auto;
 }
 .purpleFon {
 	height: 1100px;
@@ -737,6 +761,7 @@ footer .end {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	background: #c7c1e3;
 }
 footer .menu ul {
 	display: flex;
